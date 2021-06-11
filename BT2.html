@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let celcius = prompt('Nhap nhiet do');
+        // while (celcius>100 || celcius <20){
+        //     if (celcius>100){
+        //         celcius = prompt("Nhap lai gia tri <100 do C")
+        //     } else {
+        //         celcius = prompt("Nhap lai gia tri >20 do C")
+        //     }           
+        // }      
+        do {
+            if (celcius>100){
+                celcius = prompt("Nhap lai gia tri <100 do C")
+            } else {
+                celcius = prompt("Nhap lai gia tri >20 do C")
+            }           
+        }
+        while (celcius>100 || celcius <20);
+   
+    </script>
+</body>
+</html>
